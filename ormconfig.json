@@ -1,0 +1,12 @@
+{
+   "name": "default",
+   "type": "postgres",
+   "host": "localhost",
+   "port": 5432,
+   "username": "postgres",
+   "password": "admin",
+   "database": "db-inter",
+   "synchronize": true,
+   "logging": false,
+   "entities": ["src/entity/*.ts"]
+   }

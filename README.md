@@ -6,7 +6,7 @@
 
 
 ---
-Dependencias nescessárias
+Dependencias necessárias
 
 Express
 typescript -D
