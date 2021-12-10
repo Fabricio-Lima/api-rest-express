@@ -5,7 +5,7 @@
    "port": 5432,
    "username": "postgres",
    "password": "admin",
-   "database": "db-inter",
+   "database": "test",
    "synchronize": true,
    "logging": false,
    "entities": ["src/entity/*.ts"]

@@ -18,5 +18,5 @@ createConnection().then(connection => {
     console.log(`⚡️[server]: Server is running at http://localhost:${PORT}`);
   });
 }).catch((error) => {
-  console.log("⚡️[server]: Unable to connect to the database", error)
+  console.log("⚡️[server]: Unable to connect to the database\n\n------------ERROR------------\n", error)
 });
