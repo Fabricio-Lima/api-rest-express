@@ -51,9 +51,9 @@ export default class UserService {
         const userData = {
             ...user,
             password: md5(user.password).toString(),
-            wallet: 0,
+            wallet: 500,
             accountNumber: Math.floor(Math.random() * 999999),
-            accountDigit: Math.floor(Math.random() * 99)
+            accountDigit: Math.floor(Math.random() * 99) 
         }
 
         const userCreate = await userRepository.save(userData);
@@ -72,5 +72,18 @@ export default class UserService {
 
 
         return {accessToken: token};
+    }
+
+    //METODO DA PAGINA /me
+    async me(user: Partial<User>){
+        const userRepository = getRepository(User);
+        const currentUser = await userRepository.findOne({where: {id: user.id}});
+
+        if (!currentUser) throw new AppError('Usuário não encontrado', 401);
+
+        //@ts-expect-error ignore
+        delete currentUser.password;
+
+        return currentUser;
     }
 }
