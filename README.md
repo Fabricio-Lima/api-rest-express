@@ -1,13 +1,8 @@
-#API REST - cadastro de usuários e pagamento por PIX
-#Express.js / TypeScript / PostgreSQL
+# api-rest-express
 
+Olá, está é minha primeira api rest desenvolvida do zero, com TypeScript + Express.js.
 
-Dependencias:
------------------------
-Express
-typescript -D
-ts-node -D 
-@types/express -D
-@types/node -D
-nodemon -D
------------------------
+# Objetivo
+
+--> Cadastro e login de usuários, com sistema de token de acesso.
+--> Simulação de transação PIX por chave.
