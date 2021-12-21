@@ -11,7 +11,9 @@ Olá, está é minha primeira api rest desenvolvida do zero, com TypeScript + Ex
 
 Etapas para executar o projeto:
 
---> 1. execute o comando `npm i` para instalar as dependências;
---> 2. Configure o banco de dados no arquivo `ormconfig.json`;
---> 3. execute o comando`npm start` para iniciar a api;
+--> 1. execute o comando `npm i` para instalar as dependências.
+
+--> 2. Configure o banco de dados no arquivo `ormconfig.json`.
+
+--> 3. execute o comando`npm start` para iniciar a api.
 
