@@ -1,6 +1,6 @@
 # api-rest-express
 
-Olá, está é minha primeira api rest desenvolvida do zero, com TypeScript + Express.js.
+Olá, está é minha primeira api rest desenvolvida do zero, com TypeScript, Express.js, TypeORM e PostgreSQL.
 
 # Objetivo
 
